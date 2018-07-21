@@ -1,0 +1,7 @@
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\bin\Debug\MinhaCalculadoraDeSignos.exe.config
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\bin\Debug\MinhaCalculadoraDeSignos.exe
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\bin\Debug\MinhaCalculadoraDeSignos.pdb
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\obj\Debug\MinhaCalculadoraDeSignos.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\obj\Debug\MinhaCalculadoraDeSignos.csproj.CoreCompileInputs.cache
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\obj\Debug\MinhaCalculadoraDeSignos.exe
+C:\Users\Ravi\Documents\GitHub\Cursos\DevMedia\Minha primeira aplicacao C#\MinhaCalculadoraDeSignos\MinhaCalculadoraDeSignos\obj\Debug\MinhaCalculadoraDeSignos.pdb
