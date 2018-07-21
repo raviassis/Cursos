@@ -8,11 +8,11 @@ namespace MinhaCalculadoraDeSignos
 {
     class Signo
     {
-        private string nome;
-        private int diaInicio;
-        private int mesInicio;
-        private int diaFim;
-        private int mesFim;
-        private string caracteristicas;
+        public string nome;
+        public int diaInicio;
+        public int mesInicio;
+        public int diaFim;
+        public int mesFim;
+        public string caracteristicas;
     }
 }
