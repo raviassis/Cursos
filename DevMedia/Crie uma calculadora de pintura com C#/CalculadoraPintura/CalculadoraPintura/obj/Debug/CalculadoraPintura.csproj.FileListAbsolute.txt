@@ -1,0 +1,7 @@
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\bin\Debug\CalculadoraPintura.exe.config
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\bin\Debug\CalculadoraPintura.exe
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\bin\Debug\CalculadoraPintura.pdb
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\obj\Debug\CalculadoraPintura.csprojResolveAssemblyReference.cache
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\obj\Debug\CalculadoraPintura.csproj.CoreCompileInputs.cache
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\obj\Debug\CalculadoraPintura.exe
+C:\Users\Ravi\source\repos\DevMedia\Crie uma calculadora de pintura com C#\CalculadoraPintura\CalculadoraPintura\obj\Debug\CalculadoraPintura.pdb
