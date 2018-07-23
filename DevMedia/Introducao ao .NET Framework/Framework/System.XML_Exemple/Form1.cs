@@ -48,18 +48,20 @@ namespace System.XML_Exemple
             xml.SelectSingleNode("/Contatos/Contato").AppendChild(nodeTelefone);
 
             xml.Save(arquivo);
+            ReadAgenda();
         }
 
         private void ReadAgenda()
         {
             xml.Load(arquivo);
-
-            foreach (XmlNode node in xml.SelectNodes("/Contato"))
+            lblAgenda.Text = "";
+            foreach (XmlNode node in xml.SelectNodes("Contatos/Contato"))
             {
-                lblAgenda.Text += "Nome: " + node.SelectSingleNode("Nome").ToString();
-                lblAgenda.Text += " Telefone: " + node.SelectSingleNode("Telefone").ToString();
+                lblAgenda.Text += "Nome: " + node.SelectSingleNode("Nome").InnerText;
+                lblAgenda.Text += " Telefone: " + node.SelectSingleNode("Telefone").InnerText;
                 lblAgenda.Text += "\n";
             }
+
         }
     }
 }
