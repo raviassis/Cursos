@@ -10,6 +10,8 @@ namespace System.XML_Exemple
     [Serializable()]
     public class Contato
     {
+        [XmlElement("Id")]
+        public int Id;
         [XmlElement("Nome")]
         public string Nome;
         [XmlElement("Telefone")]
