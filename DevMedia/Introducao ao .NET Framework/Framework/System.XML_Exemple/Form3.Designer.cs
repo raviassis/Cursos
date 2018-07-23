@@ -33,7 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblAgenda = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -78,20 +79,31 @@
             this.label1.TabIndex = 6;
             this.label1.Text = "Nome";
             // 
-            // lblAgenda
+            // listBox1
             // 
-            this.lblAgenda.AutoSize = true;
-            this.lblAgenda.Location = new System.Drawing.Point(171, 9);
-            this.lblAgenda.Name = "lblAgenda";
-            this.lblAgenda.Size = new System.Drawing.Size(0, 13);
-            this.lblAgenda.TabIndex = 11;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(173, 26);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(316, 290);
+            this.listBox1.TabIndex = 12;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(433, 322);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(56, 23);
+            this.btnDelete.TabIndex = 13;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 261);
-            this.Controls.Add(this.lblAgenda);
+            this.ClientSize = new System.Drawing.Size(605, 457);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtTelefone);
             this.Controls.Add(this.label2);
@@ -112,6 +124,7 @@
         private Windows.Forms.Label label2;
         private Windows.Forms.TextBox txtNome;
         private Windows.Forms.Label label1;
-        private Windows.Forms.Label lblAgenda;
+        private Windows.Forms.ListBox listBox1;
+        private Windows.Forms.Button btnDelete;
     }
 }
