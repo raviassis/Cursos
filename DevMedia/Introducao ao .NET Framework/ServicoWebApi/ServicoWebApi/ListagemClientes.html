@@ -8,6 +8,7 @@
     <div>
         <h2>Clientes</h2>
         <ul id="clientes"></ul>
+        
     </div>
     <div>
         <label>Id: </label>
@@ -21,13 +22,17 @@
         var uri = "api/Cliente";
 
         function formatar(item) {
-            return item.Id + " - " + item.Nome + " - " item.Email;
+            return item.Id + " - " + item.Nome + " - " + item.Email;
         }
 
         $(document).ready(function () {
-            $.getJSON(uri).do(function (data) {
+            console.log(uri);
+            $.getJSON(uri).done(function (data) {
                 $.each(data, function (key, item) {
-                    $('<li>', { text: formatar(item) }).append($('#clientes'));
+                    console.log("key = " + key);
+                    console.log("item = " + item);
+                    //$('<li>', { text: formatar(item) }).append($('#clientes'));
+                    $('#clientes').append("<li>"+formatar(item)+"</li>");
                 });
             });
         });

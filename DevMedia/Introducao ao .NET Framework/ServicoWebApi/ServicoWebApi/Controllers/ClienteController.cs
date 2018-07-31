@@ -13,8 +13,8 @@ namespace ServicoWebApi.Controllers
         Cliente[] clientes = new Cliente[]
         {
             new Cliente() { Id = 1, Nome = "Teste1", Email = "teste1@gmail.com" },
-            new Cliente() { Id = 1, Nome = "Teste2", Email = "teste2@gmail.com" },
-            new Cliente() { Id = 1, Nome = "Teste3", Email = "teste3@gmail.com" }
+            new Cliente() { Id = 2, Nome = "Teste2", Email = "teste2@gmail.com" },
+            new Cliente() { Id = 3, Nome = "Teste3", Email = "teste3@gmail.com" }
         };
 
         public IEnumerable<Cliente> GetClientes()
