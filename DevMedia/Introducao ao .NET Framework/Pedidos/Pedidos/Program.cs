@@ -10,6 +10,10 @@ namespace Pedidos
     {
         static void Main(string[] args)
         {
+            Pedido pedido = new Pedido(new Cartao());
+            pedido.Pagar(2000);
+
+            Console.ReadLine();
         }
     }
 }
